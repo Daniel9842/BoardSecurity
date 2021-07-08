@@ -7,7 +7,7 @@ public class cacheUser {
 	public HashMap<String, String> users = new HashMap<String, String>();
 	private static cacheUser _instance = new cacheUser();
 	/**
-	 * Class constructor SavePoints.
+	 * Class constructor cacheUser.
 	 */
 	private cacheUser() {}
 	/**
@@ -30,4 +30,5 @@ public class cacheUser {
 	public void setUsers(String user,String password) {
 		users.put(user, password);
 	}
+	
 }
