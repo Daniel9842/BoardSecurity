@@ -1,5 +1,5 @@
 # BoardSecurity
-[![Heroku](https://www.herokucdn.com/deploy/button.png)](https://securityboard.herokuapp.com/bb2.html)
+[![Heroku](https://www.herokucdn.com/deploy/button.png)](https://boardsecurity.herokuapp.com/bb2.html)
 ### Daniel Santiago Ducuara Ardila
 ### 08/07/2021
 
