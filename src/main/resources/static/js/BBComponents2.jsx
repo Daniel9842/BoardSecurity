@@ -1,7 +1,7 @@
 // Retorna la url del servicio. Es una función de configuración.
 function BBServiceURL() {
     var host = window.location.host;
-    var url = 'wss://' + (host) + '/bbService';
+    var url = 'ws://' + (host) + '/bbService';
     console.log("URL Calculada: " + url);
     return url;
 }
@@ -99,7 +99,7 @@ class Editor extends React.Component {
     render() {
         return (
                 <div>
-                    <h1>Hello, {this.props.name}</h1>
+                    <h1>Interactive {this.props.name}</h1>
                     <hr/>
                     <div id="toolstatus"></div>
                     <hr/>
@@ -113,6 +113,6 @@ class Editor extends React.Component {
 }
 
 ReactDOM.render(
-        <Editor name="Daniel"/>,
+        <Editor name="Board"/>,
         document.getElementById('root')
         );
