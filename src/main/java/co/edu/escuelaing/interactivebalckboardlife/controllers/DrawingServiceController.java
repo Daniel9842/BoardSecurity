@@ -22,10 +22,6 @@ public class DrawingServiceController {
 				+ java.time.LocalTime.now() + ". " + "The server is Runnig!\"}";
 	}
 	
-	@GetMapping("/login")
-	public String login(@RequestParam String user,@RequestParam String password ) {
-		cache.setUsers(user, password);
-		return "";
-	}
+
 	
 }
