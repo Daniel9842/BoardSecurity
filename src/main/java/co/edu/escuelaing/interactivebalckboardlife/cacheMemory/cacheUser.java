@@ -23,7 +23,11 @@ public class cacheUser {
 	 * users 
 	 * @return the users hashmap
 	 */
-	public HashMap<String, String> getPositions() {
+	public HashMap<String, String> getUsers() {
 		return users;
+	}
+	
+	public void setUsers(String user,String password) {
+		users.put(user, password);
 	}
 }
