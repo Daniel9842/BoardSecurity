@@ -5,9 +5,10 @@
 
 ## Resumen
 Este repositorio consiste en la elaboración de un tablero interactivo, es decir que lo que dibuje una persona
-debe aparecer en el tablero de los demás.Usuario=user,Password=password.
+debe aparecer en el tablero de los demás.
+Para acceder al tablero usar:  Usuario=user,Password=password.
 
 ## Ejecución localmente 
-Para la ejecución local se debe ejecutar la clase SpringBoardDraw y en el navegador colocar lo siguiente http://localhost:8080/bb2.html
+Para la ejecución local se debe ejecutar la clase BBAppStarter y en el navegador colocar lo siguiente http://localhost:8080/bb2.html
 
 
